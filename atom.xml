@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-03-01T09:20:14.215Z</updated>
+  <updated>2021-03-01T09:21:19.894Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,15 +21,24 @@
     <link href="http://example.com/2021/03/01/Original-intention-of-the-station/"/>
     <id>http://example.com/2021/03/01/Original-intention-of-the-station/</id>
     <published>2021-03-01T07:40:26.791Z</published>
-    <updated>2021-03-01T09:20:14.215Z</updated>
+    <updated>2021-03-01T09:21:19.894Z</updated>
     
     
-      
-      
     <summary type="html">&lt;p&gt;第一篇网站我想说说建立这个博客网站的初衷。&lt;/p&gt;
 &lt;p&gt;“博客”这个事物好像离我们已经很远了，在我的印象里它似乎代表着互联网的老旧事物，自我开始使用互联网开始就好像没有接触过它，只知道曾经有过这个事物，现在只知道有“微博”而已。&lt;/p&gt;
-&lt;p&gt;那就先简单介绍一下什么是“博</summary>
-      
+&lt;p&gt;那就先简单介绍一下什么是“博客”吧。&lt;/p&gt;
+&lt;h3 id=&quot;博客的起源和背景&quot;&gt;&lt;a href=&quot;#博客的起源和背景&quot; class=&quot;headerlink&quot; title=&quot;博客的起源和背景&quot;&gt;&lt;/a&gt;博客的起源和背景&lt;/h3&gt;&lt;p&gt;博客的定义：“博客”一词是从英文单词Blog翻译而来。（笑~）&lt;/p&gt;
+&lt;p&gt;Blog是Weblog的简称，而Weblog则是由Web和Log两个英文单词组合而成。Weblog就是在网络上发布和阅读的流水记录，通常称为“网络日志”，简称为“网志”。&lt;br&gt;博客的产生：“博客”是指网页日志，主要是以日记的形式发布文章，并可以附加评论的个人网页。它最早诞生于美国，并迅速风靡全球，被称为新的网络交流形式。博客在中国最早出现于2002年。&lt;/p&gt;
+&lt;p&gt;和以往的网络事物不同，首先，博客具有普遍应用性。博客并不是纯粹的技术创新，而是一种逐渐演变的网络应用；其次，博客具有天然的草根性。它根植于个人，服务于个人，带有着浓厚的个人特色；再次，博客简单易用性。它比自己建立个人主页要轻松简便的多，建立个人主页如同平地盖房子，而建立博客就如同在一座已经建成的房屋内进行个性化的装修。&lt;/p&gt;
+&lt;p&gt;于是，当日渐强烈的个人表现欲已经无法通过传统媒体表达时，方便易用的博客就适时产生了。于是在1997年12月，Jorn Barger运行的“Robot Wisdom Weblog”（&lt;a href=&quot;http://www.robotwisdom.com/netlit/index.html%EF%BC%89%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%BF%E7%94%A8weblog%E8%BF%99%E4%B8%AA%E6%AD%A3%E5%BC%8F%E7%9A%84%E5%90%8D%E5%AD%97%E3%80%82%E8%87%B3%E4%BB%8A%EF%BC%8C%E5%9C%A8%E5%8D%9A%E5%AE%A2%E9%A2%86%E5%9F%9F%EF%BC%8C%E4%BB%96%E8%BF%98%E6%98%AF%E4%B8%80%E4%BD%8D%E9%9D%9E%E5%B8%B8%E6%9C%89%E5%BD%B1%E5%93%8D%E5%8A%9B%E7%9A%84%E4%BA%BA%E7%89%A9%E3%80%82Jorn&quot;&gt;http://www.robotwisdom.com/netlit/index.html）第一次使用weblog这个正式的名字。至今，在博客领域，他还是一位非常有影响力的人物。Jorn&lt;/a&gt; Barger的贡献主要体现在形式上，他将log的意义从接近航海日志那种无人称、拟客观、机械式写作，转换成较接近旅游日志的“有人称、有个性”的自由书写。形成了blog的基本写作风格。&lt;/p&gt;
+&lt;p&gt;好咯，相信你已经对博客有了一个基本认识啦。那么，接下来就说说我做“鱼生随撷”的想法。&lt;/p&gt;
+&lt;h3 id=&quot;初衷&quot;&gt;&lt;a href=&quot;#初衷&quot; class=&quot;headerlink&quot; title=&quot;初衷&quot;&gt;&lt;/a&gt;初衷&lt;/h3&gt;&lt;p&gt;其实我是一个理工生也正好是学习信息的，一直梦想成为一个程序猿，但现在还是个程序菜鸟。淦！现实与梦想的差别。所以某一天，我突发奇想能不能自己做一个网站，嗯！高端大气上档次又低调奢华有内涵的那种。然后我又突然想到，问题的关键是这个网站用来干什么呢？&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;个性化的网站，彰显个性化的思想。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这句话突然出现在我的脑海里，“做一个可以分享我的经历 技术 感悟的博客网站吧”的想法就这样形成。&lt;/p&gt;
+&lt;p&gt;每个人都是独一无二 无比珍贵的，拥有自己的世界 思想 感悟。都有自己的舞台多种多样 大大小小的舞台。那这个博客网站也是我的一个舞台，我很珍惜它，也希望有机会认识到它的你会喜欢。&lt;/p&gt;
+&lt;p&gt;百拜，叩首啦~&lt;/p&gt;</summary>
     
     
     
