@@ -72,6 +72,32 @@
       </tags>
   </entry>
   <entry>
+    <title>个人博客搭建第二篇 —— Git2.25.0详细安装步骤</title>
+    <url>/2021/03/03/three/</url>
+    <content><![CDATA[<p>Git2.25.0详细安装步骤:</p>
+<h4 id="1-进入Github官网，点击Downloads-下载"><a href="#1-进入Github官网，点击Downloads-下载" class="headerlink" title="1.进入Github官网，点击Downloads 下载####"></a>1.进入<a href="https://github.com/" title="GitHub官网">Github官网</a>，点击<strong>Downloads</strong> 下载####</h4><p><img src="/2021/03/03/three/win.png" alt="示例图片" title="示例图片"></p>
+<a id="more"></a>
+<h4 id="2-选择系统"><a href="#2-选择系统" class="headerlink" title="2.选择系统"></a>2.选择系统</h4><p><img src="/2021/03/03/three/bb.png" alt="示例图片" title="示例图片"></p>
+<h4 id="3-下载完成，双击打开"><a href="#3-下载完成，双击打开" class="headerlink" title="3.下载完成，双击打开"></a>3.下载完成，双击打开</h4><p><img src="/2021/03/03/three/dk.png" alt="示例图片" title="示例图片"></p>
+<h4 id="4-默认，下一步"><a href="#4-默认，下一步" class="headerlink" title="4.默认，下一步"></a>4.默认，下一步</h4><p><img src="/2021/03/03/three/vim.png" alt="示例图片" title="示例图片"></p>
+<p><img src="/2021/03/03/three/git.png" alt="示例图片" title="示例图片"></p>
+<p>之后，一直保持默认即可。</p>
+<h4 id="5-完成安装"><a href="#5-完成安装" class="headerlink" title="5.完成安装"></a>5.完成安装</h4><p>安装完成之后，右键可以看到这个画面。<br><img src="/2021/03/03/three/jy.png" alt="示例图片" title="示例图片"></p>
+<h4 id="6-检验"><a href="#6-检验" class="headerlink" title="6.检验"></a>6.检验</h4><p>右键打开<strong>Git Bash</strong>输入”<strong>git</strong>“,显示如下图，就安装完成啦！</p>
+<p><img src="/2021/03/03/three/wcl.png" alt="示例图片" title="示例图片"></p>
+<blockquote>
+<p>这样第二步就完成咯！</p>
+</blockquote>
+<p><img src="/2021/03/03/three/ok.jpg" alt="示例图片" title="示例图片"></p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>个人博客搭建第一篇 —— 注册Github</title>
     <url>/2021/03/03/two/</url>
     <content><![CDATA[<p>注册Github步骤：</p>
@@ -92,32 +118,6 @@
       </categories>
       <tags>
         <tag>Github</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>个人博客搭建第二篇 —— Git2.25.0详细安装步骤</title>
-    <url>/2021/03/03/three/</url>
-    <content><![CDATA[<p>Git2.25.0详细安装步骤:</p>
-<h4 id="1-进入Github官网，点击Downloads-下载"><a href="#1-进入Github官网，点击Downloads-下载" class="headerlink" title="1.进入Github官网，点击Downloads 下载####"></a>1.进入<a href="https://github.com/" title="GitHub官网">Github官网</a>，点击<strong>Downloads</strong> 下载####</h4><p><img src="/2021/03/03/three/xz.png" alt="示例图片" title="示例图片"></p>
-<a id="more"></a>
-<h4 id="2-选择系统"><a href="#2-选择系统" class="headerlink" title="2.选择系统"></a>2.选择系统</h4><p><img src="/2021/03/03/three/bb.png" alt="示例图片" title="示例图片"></p>
-<h4 id="3-下载完成，双击打开"><a href="#3-下载完成，双击打开" class="headerlink" title="3.下载完成，双击打开"></a>3.下载完成，双击打开</h4><p><img src="/2021/03/03/three/dk.png" alt="示例图片" title="示例图片"></p>
-<h4 id="4-默认，下一步"><a href="#4-默认，下一步" class="headerlink" title="4.默认，下一步"></a>4.默认，下一步</h4><p><img src="/2021/03/03/three/vim.png" alt="示例图片" title="示例图片"></p>
-<p><img src="/2021/03/03/three/git.png" alt="示例图片" title="示例图片"></p>
-<p>之后，一直保持默认即可。</p>
-<h4 id="5-完成安装"><a href="#5-完成安装" class="headerlink" title="5.完成安装"></a>5.完成安装</h4><p>安装完成之后，右键可以看到这个画面。<br><img src="/2021/03/03/three/jy.png" alt="示例图片" title="示例图片"></p>
-<h4 id="6-检验"><a href="#6-检验" class="headerlink" title="6.检验"></a>6.检验</h4><p>右键打开<strong>Git Bash</strong>输入”<strong>git</strong>“,显示如下图，就安装完成啦！</p>
-<p><img src="/2021/03/03/three/wcl.png" alt="示例图片" title="示例图片"></p>
-<blockquote>
-<p>这样第二步就完成咯！</p>
-</blockquote>
-<p><img src="/2021/03/03/three/ok.jpg" alt="示例图片" title="示例图片"></p>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>Git</tag>
       </tags>
   </entry>
 </search>
