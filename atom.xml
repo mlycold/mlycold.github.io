@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-03-03T07:37:56.325Z</updated>
+  <updated>2021-03-03T07:43:19.518Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,11 +21,11 @@
     <link href="http://example.com/2021/03/03/three/"/>
     <id>http://example.com/2021/03/03/three/</id>
     <published>2021-03-03T06:48:57.106Z</published>
-    <updated>2021-03-03T07:37:56.325Z</updated>
+    <updated>2021-03-03T07:43:19.518Z</updated>
     
     
     <summary type="html">&lt;p&gt;Git2.25.0详细安装步骤:&lt;/p&gt;
-&lt;h4 id=&quot;1-进入Github官网，点击Downloads-下载&quot;&gt;&lt;a href=&quot;#1-进入Github官网，点击Downloads-下载&quot; class=&quot;headerlink&quot; title=&quot;1.进入Github官网，点击Downloads 下载####&quot;&gt;&lt;/a&gt;1.进入&lt;a href=&quot;https://github.com/&quot; title=&quot;GitHub官网&quot;&gt;Github官网&lt;/a&gt;，点击&lt;strong&gt;Downloads&lt;/strong&gt; 下载####&lt;/h4&gt;&lt;p&gt;&lt;img src=&quot;/2021/03/03/three/win.png&quot; alt=&quot;示例图片&quot; title=&quot;示例图片&quot;&gt;&lt;/p&gt;</summary>
+&lt;h4 id=&quot;1-进入Git官网，点击Downloads-下载&quot;&gt;&lt;a href=&quot;#1-进入Git官网，点击Downloads-下载&quot; class=&quot;headerlink&quot; title=&quot;1.进入Git官网，点击Downloads 下载####&quot;&gt;&lt;/a&gt;1.进入&lt;a href=&quot;https://git-scm.com/&quot; title=&quot;Git官网&quot;&gt;Git官网&lt;/a&gt;，点击&lt;strong&gt;Downloads&lt;/strong&gt; 下载####&lt;/h4&gt;&lt;p&gt;&lt;img src=&quot;/2021/03/03/three/win.png&quot; alt=&quot;示例图片&quot; title=&quot;示例图片&quot;&gt;&lt;/p&gt;</summary>
     
     
     
