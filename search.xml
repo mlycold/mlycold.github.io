@@ -3,7 +3,7 @@
   <entry>
     <title>Original intention of the station</title>
     <url>/2021/03/01/Original-intention-of-the-station/</url>
-    <content><![CDATA[<p>第一篇网站我想说说建立这个博客网站的初衷。</p>
+    <content><![CDATA[<p>第一篇文章我想说说建立这个博客网站的初衷。</p>
 <p>“博客”这个事物好像离我们已经很远了，在我的印象里它似乎代表着互联网的老旧事物，自我开始使用互联网开始就好像没有接触过它，只知道曾经有过这个事物，现在只知道有“微博”而已。</p>
 <a id="more"></a>
 <p>那就先简单介绍一下什么是“博客”吧。</p>
@@ -26,6 +26,58 @@
       </categories>
       <tags>
         <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>个人博客搭建第五篇 —— 设置next主题</title>
+    <url>/2021/03/08/ba/</url>
+    <content><![CDATA[<p>现在博客也搭建好了，但是这样光秃秃的什么也没有不好看，是时候美化一波了！<br><img src="/2021/03/08/ba/yi.png" alt="示例图片" title="示例图片"></p>
+<h4 id="更换主题"><a href="#更换主题" class="headerlink" title="更换主题"></a>更换主题</h4><p>当前用得最多的是next主题，那为什么用得多呢？当然是符合大多数人的审美。我使用的是next(v7.7.1)，下载地址: <a href="https://github.com/theme-next/hexo-theme-next" title="地址">地址</a></p>
+<p>打开博客根目录Blog文件夹，右键Git Bash，输入如下代码将next主题下载到目录Blog/themes：</p>
+<pre><code>`git clone https://github.com/theme-next/hexo-theme-next themes/next`</code></pre>
+<p><img src="/2021/03/08/ba/er.png" alt="示例图片" title="示例图片"></p>
+<p><img src="/2021/03/08/ba/sans.png" alt="示例图片" title="示例图片"></p>
+<a id="more"></a>
+<p>打开根目录下的_config.yml(称为站点配置文件)，修改主题（注意冒号后都要有空格）：</p>
+<pre><code># Site
+title: 枫叶苑  #标题
+subtitle: &#39;&#39;
+description: 选择有时候比努力更重要 #简介或者格言
+keywords:
+author: 枫叶 #作者
+language: zh-CN #主题语言
+timezone: Asia/Shanghai#中国的时区
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+theme: next   #主题改为next</code></pre>
+<p>主题语言主要是看你的themes/next/language中的简体中文是 zh-CN 还是 zh-Hans：<br><img src="/2021/03/08/ba/san.png" alt="示例图片" title="示例图片"></p>
+<p>next主题有四种，如下图依次为Muse、Mist、Pisces、Gemini（反正我没看出来后两个有什么区别）：</p>
+<p><img src="/2021/03/08/ba/si.png" alt="示例图片" title="示例图片"></p>
+<p><img src="/2021/03/08/ba/wu.png" alt="示例图片" title="示例图片"></p>
+<p><img src="/2021/03/08/ba/liu.png" alt="示例图片" title="示例图片"></p>
+<p>我选的是Gemini，打开目录Blog/themes/next/下的_config.yml（称为主题配置文件），只要将你选的主题前的#删除就行了：</p>
+<pre><code># Schemes
+#scheme: Muse
+#scheme: Mist
+#scheme: Pisces
+scheme: Gemini#这是我选的主题</code></pre>
+<p>回到根目录打开Git Bash，输入如下三条命令：</p>
+<pre><code>hexo clean
+hexo g
+hexo d</code></pre>
+<p>完成后打开你的博客：</p>
+<p><img src="/2021/03/08/ba/qi.png" alt="示例图片" title="示例图片"></p>
+<p>问题：改主题为Gemini时，hexo clean，hexo g，hexo d 三个命令完成后主题未改变；</p>
+<p>解决办法：删除next下的.git文件夹（这好像是个隐藏文件夹），再上传时修改成功。</p>
+<p>附：后来我又发现用 hexo s 命令查看网页部署时是成功的，但是 hexo d 部署到GitHub上就不行，后来等一会就行了，可能是有延迟。</p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>Next</tag>
       </tags>
   </entry>
   <entry>
@@ -70,7 +122,7 @@
 <p>如下图，先点击 <strong>SSH and GPG keys</strong>，再点击 <strong>New SSH key</strong>.</p>
 <p><img src="/2021/03/08/liu/wu.png" alt="示例图片" title="示例图片"></p>
 <p>将复制的公钥 id_rsa.pub 的内容粘贴到 key 内，再点击 Add SSH key，如下图：<br><img src="/2021/03/08/liu/liu.png" alt="示例图片" title="示例图片"></p>
-<p>验证是否成功，我们可以通过在 <strong>Git Bash</strong> 中输入 <strong>ssh -T <a href="mailto:&#x67;&#105;&#x74;&#x40;&#103;&#x69;&#x74;&#x68;&#x75;&#x62;&#x2e;&#x63;&#x6f;&#x6d;">&#x67;&#105;&#x74;&#x40;&#103;&#x69;&#x74;&#x68;&#x75;&#x62;&#x2e;&#x63;&#x6f;&#x6d;</a></strong> 进行检验：<br><img src="/2021/03/08/liu/qi.png" alt="示例图片" title="示例图片"></p>
+<p>验证是否成功，我们可以通过在 <strong>Git Bash</strong> 中输入 <strong>ssh -T <a href="mailto:&#103;&#x69;&#116;&#64;&#x67;&#x69;&#116;&#104;&#117;&#98;&#x2e;&#x63;&#111;&#109;">&#103;&#x69;&#116;&#64;&#x67;&#x69;&#116;&#104;&#117;&#98;&#x2e;&#x63;&#111;&#109;</a></strong> 进行检验：<br><img src="/2021/03/08/liu/qi.png" alt="示例图片" title="示例图片"></p>
 <p>第一次会出现这种情况，填 yes 就行，若出现下图中的情况，则表明绑定成功：<br><img src="/2021/03/08/liu/ba.png" alt="示例图片" title="示例图片"></p>
 <h4 id="2-提交文件"><a href="#2-提交文件" class="headerlink" title="2.提交文件"></a>2.提交文件</h4><p>提交文件有两种方法：<br>第一种：本地没有 git 仓库</p>
 <pre><code>直接将远程仓库 clone 到本地；将文件添加并 commit 到本地仓库；将本地仓库的内容push到远程仓库。</code></pre>
@@ -121,7 +173,7 @@ $ git config --global user.email&quot;***@***.com&quot;</code></pre>
 <h4 id="个人博客搭建第一篇-——-注册Github"><a href="#个人博客搭建第一篇-——-注册Github" class="headerlink" title="个人博客搭建第一篇 —— 注册Github"></a>个人博客搭建第一篇 —— 注册Github</h4><h4 id="个人博客搭建第二篇-——-Git2-25-0详细安装步骤"><a href="#个人博客搭建第二篇-——-Git2-25-0详细安装步骤" class="headerlink" title="个人博客搭建第二篇 —— Git2.25.0详细安装步骤"></a>个人博客搭建第二篇 —— Git2.25.0详细安装步骤</h4><h4 id="个人博客搭建第三篇-——-绑定Github并提交文件"><a href="#个人博客搭建第三篇-——-绑定Github并提交文件" class="headerlink" title="个人博客搭建第三篇 —— 绑定Github并提交文件"></a>个人博客搭建第三篇 —— 绑定Github并提交文件</h4><p><img src="/2021/03/02/one/dz.jpg" alt="示例图片" title="示例图片"></p>
 <a id="more"></a>
 
-<h4 id="个人博客搭建第四篇-——-安装node-js和Hexo"><a href="#个人博客搭建第四篇-——-安装node-js和Hexo" class="headerlink" title="个人博客搭建第四篇 —— 安装node.js和Hexo"></a>个人博客搭建第四篇 —— 安装node.js和Hexo</h4><h4 id="个人博客搭建第五篇-——-解析域名"><a href="#个人博客搭建第五篇-——-解析域名" class="headerlink" title="个人博客搭建第五篇 —— 解析域名"></a>个人博客搭建第五篇 —— 解析域名</h4><h4 id="个人博客搭建第六篇-——-设置next主题"><a href="#个人博客搭建第六篇-——-设置next主题" class="headerlink" title="个人博客搭建第六篇 —— 设置next主题"></a>个人博客搭建第六篇 —— 设置next主题</h4><h4 id="个人博客搭建第七篇-——-优化主题（持续更新）"><a href="#个人博客搭建第七篇-——-优化主题（持续更新）" class="headerlink" title="个人博客搭建第七篇 —— 优化主题（持续更新）"></a>个人博客搭建第七篇 —— 优化主题（持续更新）</h4><p><img src="/2021/03/02/one/cmxx.jpg" alt="示例图片" title="示例图片"></p>
+<h4 id="个人博客搭建第四篇-——-安装node-js和Hexo"><a href="#个人博客搭建第四篇-——-安装node-js和Hexo" class="headerlink" title="个人博客搭建第四篇 —— 安装node.js和Hexo"></a>个人博客搭建第四篇 —— 安装node.js和Hexo</h4><h4 id="个人博客搭建第五篇-——-设置next主题"><a href="#个人博客搭建第五篇-——-设置next主题" class="headerlink" title="个人博客搭建第五篇 —— 设置next主题"></a>个人博客搭建第五篇 —— 设置next主题</h4><h4 id="个人博客搭建第六篇-——-优化主题（持续更新）"><a href="#个人博客搭建第六篇-——-优化主题（持续更新）" class="headerlink" title="个人博客搭建第六篇 —— 优化主题（持续更新）"></a>个人博客搭建第六篇 —— 优化主题（持续更新）</h4><p><img src="/2021/03/02/one/cmxx.jpg" alt="示例图片" title="示例图片"></p>
 <p><img src="/2021/03/02/one/yiqixx.jpg" alt="示例图片" title="示例图片"></p>
 <blockquote>
 <p>恭喜你，到这里就搭建完成你的个人博客啦！！！</p>
