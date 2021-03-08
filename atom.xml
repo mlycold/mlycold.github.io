@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-03-04T07:59:12.216Z</updated>
+  <updated>2021-03-08T03:28:05.649Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>个人博客搭建第三篇 —— 绑定Github并提交文件</title>
+    <link href="http://example.com/2021/03/08/liu/"/>
+    <id>http://example.com/2021/03/08/liu/</id>
+    <published>2021-03-08T02:15:13.058Z</published>
+    <updated>2021-03-08T03:28:05.649Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;在之前我们已经完成了&lt;strong&gt;GitHub&lt;/strong&gt;的注册还有&lt;strong&gt;git&lt;/strong&gt;的安装，现在就是将&lt;strong&gt;git&lt;/strong&gt;与&lt;strong&gt;GitHub&lt;/strong&gt;绑定了。&lt;/p&gt;
+&lt;p&gt;那么，为什么要绑定&lt;strong&gt;GitHub&lt;/strong&gt;呢？就是为了方便我们上传文件。虽然在&lt;strong&gt;GitHub&lt;/strong&gt;上我们可以直接上传文件，但是我试了一下发现并不好用，点击上传完全没反应，可能是网络的原因吧。所以我们利用&lt;strong&gt;SSH&lt;/strong&gt;来完成&lt;strong&gt;GitHub&lt;/strong&gt;的绑定并提交文件，这样很方便快捷。&lt;/p&gt;
+&lt;p&gt;首先来简单介绍一下&lt;strong&gt;SSH&lt;/strong&gt;协议。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;SSH&lt;/strong&gt;（安全外壳协议，&lt;strong&gt;Secure Shell&lt;/strong&gt; 的缩写）是建立在应用层基础上的安全协议。&lt;strong&gt;SSH&lt;/strong&gt; 是目前较可靠，专为远程登录会话和其他网络服务提供安全性的协议，利用 &lt;strong&gt;SSH&lt;/strong&gt; 协议可以有效防止远程管理过程中的信息泄露问题。简单来说，SSH就是保障你的账户安全，将你的数据加密压缩，不仅防止其他人截获你的数据，还能加快传输速度。&lt;/p&gt;
+&lt;p&gt;如果你想详细了解的话，可以参考这篇文章&lt;a href=&quot;https://blog.csdn.net/qq_35246620/article/details/54317740&quot; title=&quot;详述 SSH 的原理及其应用&quot;&gt;详述 SSH 的原理及其应用&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;下面就来绑定Github和提交文件吧。&lt;/p&gt;
+&lt;h4 id=&quot;1-绑定Github&quot;&gt;&lt;a href=&quot;#1-绑定Github&quot; class=&quot;headerlink&quot; title=&quot;1.绑定Github&quot;&gt;&lt;/a&gt;1.绑定Github&lt;/h4&gt;&lt;p&gt;我们要用&lt;strong&gt;git&lt;/strong&gt;上传文件到&lt;strong&gt;GitHub&lt;/strong&gt;首先得利用&lt;strong&gt;SSH&lt;/strong&gt;登录远程主机，而登录方式有两种：一种是口令登录；另一种是公钥登录。口令登录每次都要输入密码十分麻烦，而公钥登录就省去了输入密码的步骤，所以我们选择公钥授权。首先我们得在 GitHub 上添加 &lt;strong&gt;SSH key&lt;/strong&gt; 配置，要想生成SSH key，就要先安装 &lt;strong&gt;SSH&lt;/strong&gt;，不过我们安装了 &lt;strong&gt;Git Bash&lt;/strong&gt;，其应该自带了 &lt;strong&gt;SSH&lt;/strong&gt;。检验一下是否安装 SSH，我们在新建的文件夹中右键打开 &lt;strong&gt;Git Bash&lt;/strong&gt;：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/2021/03/08/liu/yi.png&quot; alt=&quot;示例图片&quot; title=&quot;示例图片&quot;&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="技术" scheme="http://example.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="Github" scheme="http://example.com/tags/Github/"/>
+    
+  </entry>
   
   <entry>
     <title>善意是人生永恒的向阳面</title>
