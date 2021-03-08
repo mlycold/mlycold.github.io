@@ -29,21 +29,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2021/01/19/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<a id="more"></a>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>个人博客搭建第三篇 —— 绑定Github并提交文件</title>
     <url>/2021/03/08/liu/</url>
     <content><![CDATA[<p>在之前我们已经完成了<strong>GitHub</strong>的注册还有<strong>git</strong>的安装，现在就是将<strong>git</strong>与<strong>GitHub</strong>绑定了。</p>
@@ -70,7 +55,7 @@
 <p>如下图，先点击 <strong>SSH and GPG keys</strong>，再点击 <strong>New SSH key</strong>.</p>
 <p><img src="/2021/03/08/liu/wu.png" alt="示例图片" title="示例图片"></p>
 <p>将复制的公钥 id_rsa.pub 的内容粘贴到 key 内，再点击 Add SSH key，如下图：<br><img src="/2021/03/08/liu/liu.png" alt="示例图片" title="示例图片"></p>
-<p>验证是否成功，我们可以通过在 <strong>Git Bash</strong> 中输入 <strong>ssh -T <a href="mailto:&#x67;&#x69;&#116;&#64;&#103;&#105;&#116;&#104;&#117;&#98;&#x2e;&#x63;&#111;&#109;">&#x67;&#x69;&#116;&#64;&#103;&#105;&#116;&#104;&#117;&#98;&#x2e;&#x63;&#111;&#109;</a></strong> 进行检验：<br><img src="/2021/03/08/liu/qi.png" alt="示例图片" title="示例图片"></p>
+<p>验证是否成功，我们可以通过在 <strong>Git Bash</strong> 中输入 <strong>ssh -T <a href="mailto:&#x67;&#x69;&#116;&#x40;&#103;&#105;&#x74;&#x68;&#x75;&#98;&#46;&#x63;&#111;&#109;">&#x67;&#x69;&#116;&#x40;&#103;&#105;&#x74;&#x68;&#x75;&#98;&#46;&#x63;&#111;&#109;</a></strong> 进行检验：<br><img src="/2021/03/08/liu/qi.png" alt="示例图片" title="示例图片"></p>
 <p>第一次会出现这种情况，填 yes 就行，若出现下图中的情况，则表明绑定成功：<br><img src="/2021/03/08/liu/ba.png" alt="示例图片" title="示例图片"></p>
 <h4 id="2-提交文件"><a href="#2-提交文件" class="headerlink" title="2.提交文件"></a>2.提交文件</h4><p>提交文件有两种方法：<br>第一种：本地没有 git 仓库</p>
 <pre><code>直接将远程仓库 clone 到本地；将文件添加并 commit 到本地仓库；将本地仓库的内容push到远程仓库。</code></pre>
@@ -106,6 +91,21 @@ $ git config --global user.email&quot;***@***.com&quot;</code></pre>
       <tags>
         <tag>Github</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2021/01/19/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<a id="more"></a>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
   </entry>
   <entry>
     <title>从0开始搭建个人博客 （超详细 亲为可行）</title>
@@ -202,29 +202,6 @@ hexo d   #自动生成网站静态文件，并部署到设定的仓库(hexo depl
       </tags>
   </entry>
   <entry>
-    <title>个人博客搭建第一篇 —— 注册Github</title>
-    <url>/2021/03/03/two/</url>
-    <content><![CDATA[<p>注册Github步骤：</p>
-<p>打开官网：<a href="https://github.com/" title="GitHub官网">Github官网</a></p>
-<h4 id="1-如图点击-sign-up-注册-（如果你之前已经有了-github-账号，直接登录就好。）"><a href="#1-如图点击-sign-up-注册-（如果你之前已经有了-github-账号，直接登录就好。）" class="headerlink" title="1. 如图点击 sign up 注册 #### （如果你之前已经有了**github**账号，直接登录就好。）"></a><strong>1.</strong> 如图点击 <strong><em>sign up</em></strong> 注册 #### （如果你之前已经有了**<em>github**</em>账号，直接登录就好。）</h4><p><img src="/2021/03/03/two/one.png" alt="示例图片" title="示例图片"></p>
-<p>注意：因为GitHub是外国网站，所以访问速度可能会比较慢，要淡定一些，还有就是浏览器的问题，比较推荐谷歌 火狐 （我用的是火狐浏览器，不过悄咪咪说一句用谷歌浏览器的话，它自带翻译网页功能，阅读比较友好）</p>
-<a id="more"></a>
-<h4 id="2-之后就按照它的提示一步一步来，完成邮箱验证之后，就可以登陆啦。"><a href="#2-之后就按照它的提示一步一步来，完成邮箱验证之后，就可以登陆啦。" class="headerlink" title="2. 之后就按照它的提示一步一步来，完成邮箱验证之后，就可以登陆啦。"></a><strong>2.</strong> 之后就按照它的提示一步一步来，完成邮箱验证之后，就可以登陆啦。</h4><p><img src="/2021/03/03/two/dl.png" alt="示例图片" title="示例图片"></p>
-<h4 id="3-登录进去之后，就可以创建自己的第一个仓库了。"><a href="#3-登录进去之后，就可以创建自己的第一个仓库了。" class="headerlink" title="3. 登录进去之后，就可以创建自己的第一个仓库了。"></a><strong>3.</strong> 登录进去之后，就可以创建自己的第一个仓库了。</h4><p><img src="/2021/03/03/two/zt.png" alt="示例图片" title="示例图片"></p>
-<h4 id="4-创建完成，大概是这个样子。-（里面是还没有东西哒，不着急慢慢来）"><a href="#4-创建完成，大概是这个样子。-（里面是还没有东西哒，不着急慢慢来）" class="headerlink" title="4. 创建完成，大概是这个样子。 ####（里面是还没有东西哒，不着急慢慢来）"></a><strong>4.</strong> 创建完成，大概是这个样子。 ####（里面是还没有东西哒，不着急慢慢来）</h4><p><img src="/2021/03/03/two/tow.png" alt="示例图片" title="示例图片"></p>
-<blockquote>
-<p>到这里，恭喜你第一大步就完成啦！</p>
-</blockquote>
-<p><img src="/2021/03/03/two/kx.jpg" alt="示例图片" title="示例图片"></p>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>Github</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>个人博客搭建第二篇 —— Git2.25.0详细安装步骤</title>
     <url>/2021/03/03/three/</url>
     <content><![CDATA[<p>Git2.25.0详细安装步骤:</p>
@@ -248,6 +225,29 @@ hexo d   #自动生成网站静态文件，并部署到设定的仓库(hexo depl
       </categories>
       <tags>
         <tag>Git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>个人博客搭建第一篇 —— 注册Github</title>
+    <url>/2021/03/03/two/</url>
+    <content><![CDATA[<p>注册Github步骤：</p>
+<p>打开官网：<a href="https://github.com/" title="GitHub官网">Github官网</a></p>
+<h4 id="1-如图点击-sign-up-注册-（如果你之前已经有了-github-账号，直接登录就好。）"><a href="#1-如图点击-sign-up-注册-（如果你之前已经有了-github-账号，直接登录就好。）" class="headerlink" title="1. 如图点击 sign up 注册 #### （如果你之前已经有了**github**账号，直接登录就好。）"></a><strong>1.</strong> 如图点击 <strong><em>sign up</em></strong> 注册 #### （如果你之前已经有了**<em>github**</em>账号，直接登录就好。）</h4><p><img src="/2021/03/03/two/one.png" alt="示例图片" title="示例图片"></p>
+<p>注意：因为GitHub是外国网站，所以访问速度可能会比较慢，要淡定一些，还有就是浏览器的问题，比较推荐谷歌 火狐 （我用的是火狐浏览器，不过悄咪咪说一句用谷歌浏览器的话，它自带翻译网页功能，阅读比较友好）</p>
+<a id="more"></a>
+<h4 id="2-之后就按照它的提示一步一步来，完成邮箱验证之后，就可以登陆啦。"><a href="#2-之后就按照它的提示一步一步来，完成邮箱验证之后，就可以登陆啦。" class="headerlink" title="2. 之后就按照它的提示一步一步来，完成邮箱验证之后，就可以登陆啦。"></a><strong>2.</strong> 之后就按照它的提示一步一步来，完成邮箱验证之后，就可以登陆啦。</h4><p><img src="/2021/03/03/two/dl.png" alt="示例图片" title="示例图片"></p>
+<h4 id="3-登录进去之后，就可以创建自己的第一个仓库了。"><a href="#3-登录进去之后，就可以创建自己的第一个仓库了。" class="headerlink" title="3. 登录进去之后，就可以创建自己的第一个仓库了。"></a><strong>3.</strong> 登录进去之后，就可以创建自己的第一个仓库了。</h4><p><img src="/2021/03/03/two/zt.png" alt="示例图片" title="示例图片"></p>
+<h4 id="4-创建完成，大概是这个样子。-（里面是还没有东西哒，不着急慢慢来）"><a href="#4-创建完成，大概是这个样子。-（里面是还没有东西哒，不着急慢慢来）" class="headerlink" title="4. 创建完成，大概是这个样子。 ####（里面是还没有东西哒，不着急慢慢来）"></a><strong>4.</strong> 创建完成，大概是这个样子。 ####（里面是还没有东西哒，不着急慢慢来）</h4><p><img src="/2021/03/03/two/tow.png" alt="示例图片" title="示例图片"></p>
+<blockquote>
+<p>到这里，恭喜你第一大步就完成啦！</p>
+</blockquote>
+<p><img src="/2021/03/03/two/kx.jpg" alt="示例图片" title="示例图片"></p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>Github</tag>
       </tags>
   </entry>
   <entry>
