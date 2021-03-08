@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2021/01/19/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<a id="more"></a>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>Original intention of the station</title>
     <url>/2021/03/01/Original-intention-of-the-station/</url>
     <content><![CDATA[<p>第一篇网站我想说说建立这个博客网站的初衷。</p>
@@ -44,6 +29,21 @@
       </tags>
   </entry>
   <entry>
+    <title>Hello World</title>
+    <url>/2021/01/19/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<a id="more"></a>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>个人博客搭建第三篇 —— 绑定Github并提交文件</title>
     <url>/2021/03/08/liu/</url>
     <content><![CDATA[<p>在之前我们已经完成了<strong>GitHub</strong>的注册还有<strong>git</strong>的安装，现在就是将<strong>git</strong>与<strong>GitHub</strong>绑定了。</p>
@@ -70,7 +70,7 @@
 <p>如下图，先点击 <strong>SSH and GPG keys</strong>，再点击 <strong>New SSH key</strong>.</p>
 <p><img src="/2021/03/08/liu/wu.png" alt="示例图片" title="示例图片"></p>
 <p>将复制的公钥 id_rsa.pub 的内容粘贴到 key 内，再点击 Add SSH key，如下图：<br><img src="/2021/03/08/liu/liu.png" alt="示例图片" title="示例图片"></p>
-<p>验证是否成功，我们可以通过在 <strong>Git Bash</strong> 中输入 <strong>ssh -T <a href="mailto:&#103;&#105;&#116;&#64;&#x67;&#105;&#116;&#x68;&#117;&#98;&#46;&#x63;&#111;&#x6d;">&#103;&#105;&#116;&#64;&#x67;&#105;&#116;&#x68;&#117;&#98;&#46;&#x63;&#111;&#x6d;</a></strong> 进行检验：<br><img src="/2021/03/08/liu/qi.png" alt="示例图片" title="示例图片"></p>
+<p>验证是否成功，我们可以通过在 <strong>Git Bash</strong> 中输入 <strong>ssh -T <a href="mailto:&#103;&#x69;&#116;&#x40;&#x67;&#105;&#x74;&#x68;&#117;&#98;&#x2e;&#x63;&#111;&#109;">&#103;&#x69;&#116;&#x40;&#x67;&#105;&#x74;&#x68;&#117;&#98;&#x2e;&#x63;&#111;&#109;</a></strong> 进行检验：<br><img src="/2021/03/08/liu/qi.png" alt="示例图片" title="示例图片"></p>
 <p>第一次会出现这种情况，填 yes 就行，若出现下图中的情况，则表明绑定成功：<br><img src="/2021/03/08/liu/ba.png" alt="示例图片" title="示例图片"></p>
 <h4 id="2-提交文件"><a href="#2-提交文件" class="headerlink" title="2.提交文件"></a>2.提交文件</h4><p>提交文件有两种方法：<br>第一种：本地没有 git 仓库</p>
 <pre><code>直接将远程仓库 clone 到本地；将文件添加并 commit 到本地仓库；将本地仓库的内容push到远程仓库。</code></pre>
@@ -133,6 +133,72 @@ $ git config --global user.email&quot;***@***.com&quot;</code></pre>
       </categories>
       <tags>
         <tag>Hexo+Next</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>个人博客搭建第四篇 —— 安装node.js和Hexo</title>
+    <url>/2021/03/08/qi/</url>
+    <content><![CDATA[<p>欢迎回来，我们开始吧！</p>
+<h4 id="1-安装nodejs"><a href="#1-安装nodejs" class="headerlink" title="1. 安装nodejs"></a>1. 安装nodejs</h4><p>下载地址：<a href="https://nodejs.org/en/" title="Node.js官网">Node.js官网</a><br><img src="/2021/03/08/qi/yi.png" alt="示例图片" title="示例图片"></p>
+<p>如上图，直接点击下载，完成后双击安装，安装直接默认 next 就好，很简单，需要改的也就是安装位置改一下，我是在D盘新建了一个文件夹 nodejs，安装在这个文件夹里。如果要看详细到每一步的话，可以看一下这个文章：<a href="%5BNode.js%E5%AE%98%E7%BD%91%5D(https://nodejs.org/en/" title="node.js 安装详细步骤教程">node.js 安装详细步骤教程</a> “Node.js官网”)。</p>
+<a id="more"></a>
+<p>安装完成可以用打开cmd检验一下是否安装成功，用 node -v 和 npm -v 命令检查版本，如下图：<br><img src="/2021/03/08/qi/er.png" alt="示例图片" title="示例图片"></p>
+<p><strong>设置npm在安装全局模块时的路径和环境变量</strong></p>
+<p>因为如果不设置的话，安装模块的时候就会把模块装到C盘，占用C盘的空间，并且有可能安装好hexo后却无法使用，所以我们需要设置一下：</p>
+<p>在 nodejs 文件夹中新建两个空文件夹 node_cache、node_global，如下图：<br><img src="/2021/03/08/qi/san.png" alt="示例图片" title="示例图片"></p>
+<p>打开cmd，输入如下两个命令：</p>
+<pre><code>`npm config set prefix &quot;D:\nodejs\node_global&quot;`
+`npm config set cache &quot;D:\nodejs\node_cache&quot;`</code></pre>
+<p><img src="/2021/03/08/qi/si.png" alt="示例图片" title="示例图片"></p>
+<p>设置环境变量：win10系统 –&gt; 打开控制面板 –&gt; 系统 –&gt;高级系统设置 –&gt; 环境变量 ，然后在系统变量中新建一个变量名为“NODE_PATH”，值为“D:\nodejs\node_global\node_modules”，如下图：<br><img src="/2021/03/08/qi/wu.png" alt="示例图片" title="示例图片"></p>
+<p><img src="/2021/03/08/qi/liu.png" alt="示例图片" title="示例图片"></p>
+<p>然后编辑用户变量里的Path，将相应npm的路径改为：D:\nodejs\node_global，如下图：<br><img src="/2021/03/08/qi/qi.png" alt="示例图片" title="示例图片"></p>
+<p><img src="/2021/03/08/qi/ba.png" alt="示例图片" title="示例图片"></p>
+<p><img src="/2021/03/08/qi/jiu.png" alt="示例图片" title="示例图片"></p>
+<p><strong>测试</strong></p>
+<p>在 cmd 命令下执行 npm install webpack -g ：</p>
+<p><img src="/2021/03/08/qi/shi.png" alt="示例图片" title="示例图片"></p>
+<p>然后 webpack 这个模块已经在我们设置默认的文件夹中了：<br><img src="/2021/03/08/qi/shiyi.png" alt="示例图片" title="示例图片"></p>
+<h4 id="2-安装Hexo"><a href="#2-安装Hexo" class="headerlink" title="2.安装Hexo"></a>2.安装Hexo</h4><p>Hexo就是我们的个人博客网站的框架，在安装之前，我们要先在GitHub上创立一个仓库，如下图：<br><img src="/2021/03/08/qi/shier.png" alt="示例图片" title="示例图片"></p>
+<p><img src="/2021/03/08/qi/shisan.png" alt="示例图片" title="示例图片"></p>
+<p>点击 settings 设置：<br><img src="/2021/03/08/qi/shisi.png" alt="示例图片" title="示例图片"></p>
+<p>滑到页面底端，出现如下图所示就说明已经成功了：</p>
+<p><img src="/2021/03/08/qi/shiwu.png" alt="示例图片" title="示例图片"></p>
+<p>接下来就是安装Hexo，首先在D盘建立一个文件夹 Blog，点开 Blog 文件夹，鼠标右键打开 Git Bush Here，输入npm命令安装Hexo：</p>
+<pre><code>`npm install -g hexo-cli`</code></pre>
+<p><img src="/2021/03/08/qi/shiliu.png" alt="示例图片" title="示例图片"></p>
+<p>安装完成后，输入 hexo init 命令初始化博客：<br><img src="/2021/03/08/qi/shiqi.png" alt="示例图片" title="示例图片"></p>
+<p>然后输入 hexo g 静态部署：<br><img src="/2021/03/08/qi/shiba.png" alt="示例图片" title="示例图片"></p>
+<p>这时网页已经部署完成，输入 hexo s 命令可以查看：<br><img src="/2021/03/08/qi/shijiu.png" alt="示例图片" title="示例图片"></p>
+<p>浏览器输入 <a href="http://localhost:4000/">http://localhost:4000</a> 就可以打开新部署的网页：<br><img src="/2021/03/08/qi/ershi.png" alt="示例图片" title="示例图片"></p>
+<p>看完之后 ctrl +c 停止运行服务器。</p>
+<p><strong>将Hexo部署到GitHub</strong></p>
+<p>现在回到我们的 Blog 文件夹，用笔记本打开 _config.yml 文件，如下图：<br><img src="/2021/03/08/qi/ershiyi.png" alt="示例图片" title="示例图片"></p>
+<p>下滑到文件底部，填上如下内容：</p>
+<pre><code>deploy:
+  type: git
+  repository: https://github.com/fengye97/fengye97.github.io.git  #你的仓库地址
+  branch: master</code></pre>
+<p>注意空格：<br><img src="/2021/03/08/qi/ershier.png" alt="示例图片" title="示例图片"></p>
+<p>你的仓库地址就是下图这个：<br><img src="/2021/03/08/qi/ershisan.png" alt="示例图片" title="示例图片"></p>
+<p>然后回到 Blog 文件夹中，打开 Git Bash，安装Git部署插件，输入命令：</p>
+<pre><code>`npm install hexo-deployer-git --save`</code></pre>
+<p><img src="/2021/03/08/qi/ershisi.png" alt="示例图片" title="示例图片"></p>
+<p>然后分别输入以下三条命令：</p>
+<pre><code>hexo clean   #清除缓存文件 db.json 和已生成的静态文件 public
+hexo g   #生成网站静态文件到默认设置的 public 文件夹(hexo generate 的缩写)
+hexo d   #自动生成网站静态文件，并部署到设定的仓库(hexo deploy 的缩写)</code></pre>
+<p><img src="/2021/03/08/qi/ershiwu.png" alt="示例图片" title="示例图片"></p>
+<p>完成以后，打开浏览器，输入 <a href="https://xxx.github.io/">https://xxx.github.io</a> 就可以打开你的网页了：</p>
+<p><img src="/2021/03/08/qi/ershiliu.png" alt="示例图片" title="示例图片"></p>
+<p>到这里我们就完成了网页的搭建，是不是很厉害，得为自己点一个赞！</p>
+<p><img src="/2021/03/08/qi/ds.jpg" alt="示例图片" title="示例图片"></p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>node.js hexo</tag>
       </tags>
   </entry>
   <entry>
