@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-03-08T07:10:45.430Z</updated>
+  <updated>2021-03-08T07:19:27.710Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,12 +21,12 @@
     <link href="http://example.com/2021/03/08/qi/"/>
     <id>http://example.com/2021/03/08/qi/</id>
     <published>2021-03-08T06:17:17.652Z</published>
-    <updated>2021-03-08T07:10:45.430Z</updated>
+    <updated>2021-03-08T07:19:27.710Z</updated>
     
     
     <summary type="html">&lt;p&gt;欢迎回来，我们开始吧！&lt;/p&gt;
 &lt;h4 id=&quot;1-安装nodejs&quot;&gt;&lt;a href=&quot;#1-安装nodejs&quot; class=&quot;headerlink&quot; title=&quot;1. 安装nodejs&quot;&gt;&lt;/a&gt;1. 安装nodejs&lt;/h4&gt;&lt;p&gt;下载地址：&lt;a href=&quot;https://nodejs.org/en/&quot; title=&quot;Node.js官网&quot;&gt;Node.js官网&lt;/a&gt;&lt;br&gt;&lt;img src=&quot;/2021/03/08/qi/yi.png&quot; alt=&quot;示例图片&quot; title=&quot;示例图片&quot;&gt;&lt;/p&gt;
-&lt;p&gt;如上图，直接点击下载，完成后双击安装，安装直接默认 next 就好，很简单，需要改的也就是安装位置改一下，我是在D盘新建了一个文件夹 nodejs，安装在这个文件夹里。如果要看详细到每一步的话，可以看一下这个文章：&lt;a href=&quot;%5BNode.js%E5%AE%98%E7%BD%91%5D(https://nodejs.org/en/&quot; title=&quot;node.js 安装详细步骤教程&quot;&gt;node.js 安装详细步骤教程&lt;/a&gt; “Node.js官网”)。&lt;/p&gt;</summary>
+&lt;p&gt;如上图，直接点击下载，完成后双击安装，安装直接默认 next 就好，很简单，需要改的也就是安装位置改一下，我是在D盘新建了一个文件夹 nodejs，安装在这个文件夹里。如果要看详细到每一步的话，可以看一下这个文章：&lt;a href=&quot;https://blog.csdn.net/antma/article/details/86104068&quot; title=&quot;node.js 安装详细步骤教程&quot;&gt;node.js 安装详细步骤教程&lt;/a&gt; 。&lt;/p&gt;</summary>
     
     
     
