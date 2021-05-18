@@ -122,7 +122,7 @@ hexo d</code></pre>
 <p>如下图，先点击 <strong>SSH and GPG keys</strong>，再点击 <strong>New SSH key</strong>.</p>
 <p><img src="/2021/03/08/liu/wu.png" alt="示例图片" title="示例图片"></p>
 <p>将复制的公钥 id_rsa.pub 的内容粘贴到 key 内，再点击 Add SSH key，如下图：<br><img src="/2021/03/08/liu/liu.png" alt="示例图片" title="示例图片"></p>
-<p>验证是否成功，我们可以通过在 <strong>Git Bash</strong> 中输入 <strong>ssh -T <a href="mailto:&#x67;&#105;&#x74;&#64;&#x67;&#105;&#x74;&#104;&#117;&#x62;&#x2e;&#99;&#x6f;&#109;">&#x67;&#105;&#x74;&#64;&#x67;&#105;&#x74;&#104;&#117;&#x62;&#x2e;&#99;&#x6f;&#109;</a></strong> 进行检验：<br><img src="/2021/03/08/liu/qi.png" alt="示例图片" title="示例图片"></p>
+<p>验证是否成功，我们可以通过在 <strong>Git Bash</strong> 中输入 <strong>ssh -T <a href="mailto:&#103;&#x69;&#116;&#64;&#x67;&#105;&#x74;&#x68;&#x75;&#98;&#46;&#99;&#111;&#x6d;">&#103;&#x69;&#116;&#64;&#x67;&#105;&#x74;&#x68;&#x75;&#98;&#46;&#99;&#111;&#x6d;</a></strong> 进行检验：<br><img src="/2021/03/08/liu/qi.png" alt="示例图片" title="示例图片"></p>
 <p>第一次会出现这种情况，填 yes 就行，若出现下图中的情况，则表明绑定成功：<br><img src="/2021/03/08/liu/ba.png" alt="示例图片" title="示例图片"></p>
 <h4 id="2-提交文件"><a href="#2-提交文件" class="headerlink" title="2.提交文件"></a>2.提交文件</h4><p>提交文件有两种方法：<br>第一种：本地没有 git 仓库</p>
 <pre><code>直接将远程仓库 clone 到本地；将文件添加并 commit 到本地仓库；将本地仓库的内容push到远程仓库。</code></pre>
@@ -157,34 +157,6 @@ $ git config --global user.email&quot;***@***.com&quot;</code></pre>
       </categories>
       <tags>
         <tag>Github</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>从0开始搭建个人博客 （超详细 亲为可行）</title>
-    <url>/2021/03/02/one/</url>
-    <content><![CDATA[<p>每个人都有一个独一无二的世界，如果你也愿意展现你的浩瀚无垠，那么和我一起搭建一个专属于你的个人世界吧！</p>
-<p>那么，搭建一个个性化的个人博客需要什么呢？（悄咪咪说在前面，搭建这个博客不需要一分钱哦~）</p>
-<p>唯一需要的就是耐心和坚持，这是一个学习 实践 收获的过程，需要的时间和精力，需要你一步一步来，毕竟“心急吃不了热豆腐”嘛。也像古人训示我们的“不积硅步，无以至千里。”</p>
-<p>我们一起，一定可以哒。</p>
-<blockquote>
-<p>下面，你只需要一步一步和我一起做就能搭建属于你的博客啦！</p>
-<p>（有什么问题的话，可以评论提出来，我们一起解决哒。）</p>
-</blockquote>
-<h4 id="个人博客搭建第一篇-——-注册Github"><a href="#个人博客搭建第一篇-——-注册Github" class="headerlink" title="个人博客搭建第一篇 —— 注册Github"></a>个人博客搭建第一篇 —— 注册Github</h4><h4 id="个人博客搭建第二篇-——-Git2-25-0详细安装步骤"><a href="#个人博客搭建第二篇-——-Git2-25-0详细安装步骤" class="headerlink" title="个人博客搭建第二篇 —— Git2.25.0详细安装步骤"></a>个人博客搭建第二篇 —— Git2.25.0详细安装步骤</h4><h4 id="个人博客搭建第三篇-——-绑定Github并提交文件"><a href="#个人博客搭建第三篇-——-绑定Github并提交文件" class="headerlink" title="个人博客搭建第三篇 —— 绑定Github并提交文件"></a>个人博客搭建第三篇 —— 绑定Github并提交文件</h4><p><img src="/2021/03/02/one/dz.jpg" alt="示例图片" title="示例图片"></p>
-<a id="more"></a>
-
-<h4 id="个人博客搭建第四篇-——-安装node-js和Hexo"><a href="#个人博客搭建第四篇-——-安装node-js和Hexo" class="headerlink" title="个人博客搭建第四篇 —— 安装node.js和Hexo"></a>个人博客搭建第四篇 —— 安装node.js和Hexo</h4><h4 id="个人博客搭建第五篇-——-设置next主题"><a href="#个人博客搭建第五篇-——-设置next主题" class="headerlink" title="个人博客搭建第五篇 —— 设置next主题"></a>个人博客搭建第五篇 —— 设置next主题</h4><h4 id="个人博客搭建第六篇-——-优化主题（持续更新）"><a href="#个人博客搭建第六篇-——-优化主题（持续更新）" class="headerlink" title="个人博客搭建第六篇 —— 优化主题（持续更新）"></a>个人博客搭建第六篇 —— 优化主题（持续更新）</h4><p><img src="/2021/03/02/one/cmxx.jpg" alt="示例图片" title="示例图片"></p>
-<p><img src="/2021/03/02/one/yiqixx.jpg" alt="示例图片" title="示例图片"></p>
-<blockquote>
-<p>恭喜你，到这里就搭建完成你的个人博客啦！！！</p>
-</blockquote>
-<p><img src="/2021/03/02/one/gx.jpg" alt="示例图片" title="示例图片"></p>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>Hexo+Next</tag>
       </tags>
   </entry>
   <entry>
@@ -251,6 +223,40 @@ hexo d   #自动生成网站静态文件，并部署到设定的仓库(hexo depl
       </categories>
       <tags>
         <tag>node.js hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客的始末是我的毕业设计</title>
+    <url>/2021/05/17/shier/</url>
+    <content><![CDATA[<h4 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h4><p>如果看过about，你就会发现作者酱其实是一个理工科人，昂，好像没有说过哦，不过没有关系，就是一个专业是电子信息工程的小本科生。学习电子信息工程的我，是的，这个博客网站就是我的毕业设计啦。说起来很忏愧，这个博客拿来做毕业设计真的满小儿科的，害，是我学业不精。</p>
+<blockquote>
+<p>青山遮不住，毕竟东流去。</p>
+</blockquote>
+<p>尽管是这样，还是要毕业呀。在我思来想去之后，决定搞这个博客网站了。就这样敲定了，论文选题。</p>
+<h4 id="经过"><a href="#经过" class="headerlink" title="经过"></a>经过</h4><p>从2020年12月开始搭建网站的，刚刚开始的那几次总是出现很多莫名其妙的bug（其实我无法解决），只能全部删除重新来过。每一次删除都很心痛，就像是自己从地基开始搭建的大楼，已经建到二楼了，自己却无法再建下去了，只能用炸弹全部摧毁，一点不剩。这样来来去去四五六次，一直到2021年1月份才完成了博客网站的基本搭建。</p>
+<a id="more"></a>
+<p>之后进行网站的美化以及文章的书写，一切就进行的比较顺利了。其实真的有成就感，看着原来空空白白的网页慢慢变得美观有内容了，真的有一种建成的成就感。</p>
+<p>到了四月末，就开始答辩了，还记得那一天我是第二个答辩的人，把我紧张的啊。那一天一大早5：30就起床了，6：30集合拍毕业照，极其草率，那个学士服就一个班拍一个班穿，穿在自己身上的时间也就十几秒吧。害，就一张大合照，其余的想也没有机会了。拍完已经8：00了，8：30就开始答辩了，那天早上，我差一点没有急上火。</p>
+<p>不过还好，问我答辩问题的那个老师是我的专业老师，没有特别为难我，还是很顺利的完成了答辩。真的谢谢朱老师。</p>
+<h4 id="结果"><a href="#结果" class="headerlink" title="结果"></a>结果</h4><p>到今天，毕业设计答辩已经都全部完成啦。还有一些论文材料交上去就好了。我自己都没有想到会这么顺利，还以为会很难，果然只有经历过才知道会是怎么样的。在about里说过自己可能已经是社会打工人了，没想到现在写这篇文章的时候自己还不是。</p>
+<p>但，这实在没有什么好高兴的，因为那意味着我是一个无业青年，不，应该说是无业游民。科学证明，十七八岁才是青年，呜呜呜。</p>
+<p>芜湖，没关系，不是青年人但是年青呐！</p>
+<p>结束了大学四年的生活，以此为起点要迈入社会这个大舞台了或许也是一个大染缸，不管是什么，都要自己去感受呢。相信生命不绝，奋斗不息，希望永远在心中。</p>
+<p>最后的不是最后的最后分享一首我喜欢的诗吧，与诸君共勉。</p>
+<center>
+#### 感遇 ####
+  张九龄
+
+<p>兰叶春葳蕤，桂华秋皎洁。</p>
+<p>欣欣此生意，自尔为佳节。</p>
+<p>谁知林栖者，闻风坐相悦。</p>
+<p>草木有本心，何求美人折。</p>
+</center>]]></content>
+      <categories>
+        <category>经历</category>
+      </categories>
+      <tags>
+        <tag>毕业那些事</tag>
       </tags>
   </entry>
   <entry>
@@ -344,6 +350,34 @@ hexo d   #自动生成网站静态文件，并部署到设定的仓库(hexo depl
       </categories>
       <tags>
         <tag>Github</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>从0开始搭建个人博客 （超详细 亲为可行）</title>
+    <url>/2021/03/02/one/</url>
+    <content><![CDATA[<p>每个人都有一个独一无二的世界，如果你也愿意展现你的浩瀚无垠，那么和我一起搭建一个专属于你的个人世界吧！</p>
+<p>那么，搭建一个个性化的个人博客需要什么呢？（悄咪咪说在前面，搭建这个博客不需要一分钱哦~）</p>
+<p>唯一需要的就是耐心和坚持，这是一个学习 实践 收获的过程，需要的时间和精力，需要你一步一步来，毕竟“心急吃不了热豆腐”嘛。也像古人训示我们的“不积硅步，无以至千里。”</p>
+<p>我们一起，一定可以哒。</p>
+<blockquote>
+<p>下面，你只需要一步一步和我一起做就能搭建属于你的博客啦！</p>
+<p>（有什么问题的话，可以评论提出来，我们一起解决哒。）</p>
+</blockquote>
+<h4 id="个人博客搭建第一篇-——-注册Github"><a href="#个人博客搭建第一篇-——-注册Github" class="headerlink" title="个人博客搭建第一篇 —— 注册Github"></a>个人博客搭建第一篇 —— 注册Github</h4><h4 id="个人博客搭建第二篇-——-Git2-25-0详细安装步骤"><a href="#个人博客搭建第二篇-——-Git2-25-0详细安装步骤" class="headerlink" title="个人博客搭建第二篇 —— Git2.25.0详细安装步骤"></a>个人博客搭建第二篇 —— Git2.25.0详细安装步骤</h4><h4 id="个人博客搭建第三篇-——-绑定Github并提交文件"><a href="#个人博客搭建第三篇-——-绑定Github并提交文件" class="headerlink" title="个人博客搭建第三篇 —— 绑定Github并提交文件"></a>个人博客搭建第三篇 —— 绑定Github并提交文件</h4><p><img src="/2021/03/02/one/dz.jpg" alt="示例图片" title="示例图片"></p>
+<a id="more"></a>
+
+<h4 id="个人博客搭建第四篇-——-安装node-js和Hexo"><a href="#个人博客搭建第四篇-——-安装node-js和Hexo" class="headerlink" title="个人博客搭建第四篇 —— 安装node.js和Hexo"></a>个人博客搭建第四篇 —— 安装node.js和Hexo</h4><h4 id="个人博客搭建第五篇-——-设置next主题"><a href="#个人博客搭建第五篇-——-设置next主题" class="headerlink" title="个人博客搭建第五篇 —— 设置next主题"></a>个人博客搭建第五篇 —— 设置next主题</h4><h4 id="个人博客搭建第六篇-——-优化主题（持续更新）"><a href="#个人博客搭建第六篇-——-优化主题（持续更新）" class="headerlink" title="个人博客搭建第六篇 —— 优化主题（持续更新）"></a>个人博客搭建第六篇 —— 优化主题（持续更新）</h4><p><img src="/2021/03/02/one/cmxx.jpg" alt="示例图片" title="示例图片"></p>
+<p><img src="/2021/03/02/one/yiqixx.jpg" alt="示例图片" title="示例图片"></p>
+<blockquote>
+<p>恭喜你，到这里就搭建完成你的个人博客啦！！！</p>
+</blockquote>
+<p><img src="/2021/03/02/one/gx.jpg" alt="示例图片" title="示例图片"></p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>Hexo+Next</tag>
       </tags>
   </entry>
   <entry>
